@@ -95,3 +95,51 @@ h1,h2,h3,h4,h5{
 }
 
 /*Skills*/
+.amSkills {
+    
+    text-align: center;
+}
+
+.skillContainer {
+    margin: 5em 0 0 0;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+.skill img {
+    width: 30%;
+    margin: 1em 0;
+}
+
+.skill {
+    width: 25%;
+    text-align: center;
+}
+
+.divUnder{
+	border-bottom: 3px solid #ff5252;
+	padding-bottom: 10em
+}
+
+.skill img.top{
+    display: none
+}
+
+/*
+
+.skill {
+    position: relative;
+    width: 25%;
+    margin: 0 auto;
+}
+
+.skill img.top {
+    position: absolute;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.skill img.top:hover {
+    opacity: 0;
+    visibility: hidden
+}*/
