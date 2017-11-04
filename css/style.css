@@ -1,3 +1,97 @@
-font-family: 'Muli', sans-serif;
-font-family: 'Anton', sans-serif;
-font-family: 'Arimo', sans-serif;
+/*font-family: 'Muli', sans-serif; 300 200
+font-family: 'Anton', sans-serif; 400
+font-family: 'Arimo', sans-serif; 400 700*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: 'Muli', sans-serif;
+    font-weight: 300;
+    color: #fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    
+}
+
+h1,h2,h3,h4,h5{
+    font-family: 'Anton', sans-serif;
+    font-weight: 400; 
+}
+
+/*------------------------navbar-------------------------------*/
+.navbar{
+    background: #222;
+    padding: 1em 20%
+}
+
+
+/*------------------------Inicio-------------------------------*/
+.home{
+    background: #EE5050;
+    background-image: url(../imgs/mapback.svg);
+    background-repeat: no-repeat;
+    background-position: center 5em;
+
+}
+
+.homecontainer{
+    height: 75vh;
+    position: relative;
+    width: 100%
+}
+
+.hlogo{
+    width: 15%;
+    position: absolute;
+    bottom: 10%;
+    right: 20%;
+    background: rgba(254, 254, 254, 0.5)
+}
+
+.hlogo img{
+    100%;
+}
+
+
+/*------------------------sobreMi-------------------------------*/
+.sectioncontainer{
+    background: #222;
+    padding: 10em 0;
+}
+
+.amFoto img{
+    width: 70%;
+    margin: auto
+}
+
+.amInfo h1{
+    font-size: 3em
+}
+
+/*aMFormacion*/
+.amFormacion{
+    margin: 10em 0;
+}
+.amFormacion, .amCardUniversidad{
+    display: flex;
+    flex-flow:wrap;
+    justify-content: space-between;
+}
+
+.amCard{
+    background:  #EE5050;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    width: 49%;
+    margin: 0.5%;
+    padding: 2em 2% 0
+}
+
+.amLogoU{
+    width: 30%
+}
+
+/*Skills*/
